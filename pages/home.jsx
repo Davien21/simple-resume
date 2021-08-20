@@ -28,7 +28,7 @@ export default function Home() {
             interfaces using whatever tools are needed. In my free time, I love
             listening to music or playing chess 😊.
           </p>
-          <p>I'm currently open to new remote or contract roles.</p>
+          <p>{"I'm "} currently open to new remote or contract roles.</p>
         </div>
       </section>
     </>
