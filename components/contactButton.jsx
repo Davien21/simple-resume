@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import RightArrowImage from "./icons/rightArrow";
-import NavLink from "./navLink";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
-function ContactButton(props) {
-  const [isHovering, setIsHovering] = useState(false);
+export default function ContactButton(props) {
+  const isContactPage = useRouter().pathname == "/contact";
+  const [isHovering, setIsHovering] = useState(isContactPage);
 
   const handleMouseEnter = () => {
     setIsHovering(true);
@@ -13,20 +14,22 @@ function ContactButton(props) {
     setIsHovering(false);
   };
 
+  const hoverEvents = isContactPage ?? {
+    onMouseEnter: handleMouseEnter,
+    onMouseLeave: handleMouseLeave,
+  };
+
   return (
     <Link href="/contact" passHref>
-      <a
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-        className="col-lg-4 contact-btn "
-      >
+      <a {...hoverEvents} className="col-lg-4 contact-btn ">
         <div className="">
           <span className="title col-auto pl-0">Contact Me</span>
-          <RightArrowImage className="col-auto" isHovering={isHovering} />
+          <RightArrowImage
+            className="col-auto "
+            isHovering={isContactPage ?? isHovering}
+          />
         </div>
       </a>
     </Link>
   );
 }
-
-export default ContactButton;
