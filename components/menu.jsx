@@ -7,7 +7,7 @@ function Menu(props) {
       <ul>
         <NavLink href="/">About</NavLink>
 
-        <NavLink href="/work">Work</NavLink>
+        {/* <NavLink href="/work">Work</NavLink> */}
 
         <NavLink href="/experience">Experience</NavLink>
 
