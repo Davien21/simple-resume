@@ -12,7 +12,7 @@ function Experience() {
           <div className="col-auto">
             <Image alt="" src={experienceIcon} width={40} height={40} />
           </div>
-          <div className="col-auto">
+          <div className="col-auto px-0">
             <p className="title m-0 semi-bold">Work Experience</p>
           </div>
         </div>
