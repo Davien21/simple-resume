@@ -13,11 +13,11 @@ function Footer(props) {
           <div className="row align-items-center">
             <span className="col-auto mt-3 mt-md-0  title">Social Media:</span>
             <div className="col col-lg-auto px-0 mt-3 mt-md-0">
-              <div className="row flex-nowrap justify-content-between">
+              <div className="d-flex justify-content-between">
                 <div className="col-auto  ">
                   <TwitterImage />
                 </div>
-                <div className="col-auto  ">
+                <div className="col-auto px-0">
                   <GithubImage />
                 </div>
                 <div className="col-auto ">
@@ -37,8 +37,8 @@ function Footer(props) {
         </div>
         <ContactButton />
       </div>
-      <div className="bottom mt-3 row align-items-center">
-        <p className="col-auto">Developed with ♥ by Me for HNG</p>
+      <div className="bottom mt-3">
+        <p className="">Developed with ♥ by Me for HNG</p>
         {/* <div className="col-auto">
           <Image src={logos} alt="Zuri / I4G Logo" width={250} height={62} />
         </div> */}
