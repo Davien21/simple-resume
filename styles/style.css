@@ -209,6 +209,11 @@ textarea {
   font-size: 0.9rem;
 }
 
+input:focus,
+textarea:focus {
+  outline: 2px solid var(--secondary-color);
+}
+
 input.error,
 textarea.error {
   outline: 1px solid #d43742;
@@ -226,11 +231,11 @@ textarea.error {
 }
 
 .black-btn {
-  padding: 12px 0 12px 15px;
+  padding: 20px 15px;
 }
 
 .black-btn:disabled {
-  opacity: 1;
+  /* opacity: 1; */
 }
 
 .black-btn,
@@ -306,6 +311,7 @@ textarea.error {
   font-weight: 600;
   font-size: 1.5rem;
   top: 1.6rem;
+  cursor: pointer;
 }
 
 .menu_toggle,
@@ -327,6 +333,9 @@ textarea.error {
 @media screen and (min-width: 576px) {
   .menu_toggle {
     top: 3.2rem;
+  }
+  .logo {
+    top: 2.6rem;
   }
 }
 
