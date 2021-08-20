@@ -326,13 +326,14 @@ textarea.error {
   cursor: pointer;
   position: absolute;
   z-index: 1;
-  right: 3rem;
-  top: 2.2rem;
+  right: 2.5rem;
+  top: 1.7rem;
+  padding: 0.5rem;
 }
 
 @media screen and (min-width: 576px) {
   .menu_toggle {
-    top: 3.2rem;
+    top: 2.7rem;
   }
   .logo {
     top: 2.6rem;
