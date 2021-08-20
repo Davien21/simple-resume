@@ -10,18 +10,22 @@ function Footer(props) {
     <footer>
       <div className="row mx-0 top ">
         <div className="col-lg-8 socials">
-          <div className="row  align-items-center">
-            <span className="col-auto  title">Social Media:</span>
-            <div className="col-auto  ">
-              <TwitterImage />
+          <div className="row align-items-center">
+            <span className="col-auto mt-3 mt-md-0  title">Social Media:</span>
+            <div className="col col-lg-auto px-0 mt-3 mt-md-0">
+              <div className="row flex-nowrap justify-content-between">
+                <div className="col-auto  ">
+                  <TwitterImage />
+                </div>
+                <div className="col-auto  ">
+                  <GithubImage />
+                </div>
+                <div className="col-auto ">
+                  <LinkedinImage />
+                </div>
+              </div>
             </div>
-            <div className="col-auto  ">
-              <GithubImage />
-            </div>
-            <div className="col-auto  px-0">
-              <LinkedinImage />
-            </div>
-            <div className="ml-auto col-auto ">
+            <div className="d-flex align-items-center logo-div ml-md-auto mt-4 mt-md-0 col-auto  ">
               <Image
                 src={logos}
                 alt="Zuri / I4G Logo"
