@@ -15,7 +15,7 @@ export default function Home() {
         <header>
           <p className="m-0 title">Hi there 👋</p>
           <div className="name-div mt-2">
-            <span className="">I'm </span>{" "}
+            <span className="">I&apos;m </span>{" "}
             <b className="name">Chidiebere Ekennia</b>
           </div>
         </header>
