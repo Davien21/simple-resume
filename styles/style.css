@@ -28,6 +28,30 @@ a:hover {
   box-sizing: border-box;
 }
 
+/* Scrollbar */
+
+*,
+* * {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary-color) #ccc;
+}
+
+*::-webkit-scrollbar,
+* *::-webkit-scrollbar {
+  width: 8px;
+  scrollbar-color: var(--secondary-color) #ccc;
+}
+
+*::-webkit-scrollbar-track,
+* *::-webkit-scrollbar-track {
+  background: #ccc;
+}
+
+*::-webkit-scrollbar-thumb,
+* *::-webkit-scrollbar-thumb {
+  background: var(--secondary-color);
+}
+
 aside,
 main,
 footer > :first-child,
@@ -392,7 +416,7 @@ textarea.error {
 }
 
 .timeline-item .description {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 ul.description {
@@ -400,26 +424,4 @@ ul.description {
   padding-left: 1rem;
 }
 
-/* Scrollbar */
 
-.slim-scrollbar,
-.slim-scrollbar * {
-  scrollbar-width: thin;
-  scrollbar-color: var(--secondary-color) #ccc;
-}
-
-.slim-scrollbar::-webkit-scrollbar,
-.slim-scrollbar *::-webkit-scrollbar {
-  width: 8px;
-  scrollbar-color: var(--secondary-color) #ccc;
-}
-
-.slim-scrollbar::-webkit-scrollbar-track,
-.slim-scrollbar *::-webkit-scrollbar-track {
-  background: #ccc;
-}
-
-.slim-scrollbar::-webkit-scrollbar-thumb,
-.slim-scrollbar *::-webkit-scrollbar-thumb {
-  background: var(--secondary-color);
-}

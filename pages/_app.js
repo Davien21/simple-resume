@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps, router }) {
       <motion.div className="container-lg px-0 parent">
         <Header />
         <div className="d-flex flex-wrap">
-          <main className="col-lg-8 slim-scrollbar">
+          <main className="col-lg-8">
             <motion.div
               exit={fadeOut}
               initial={fadeOut}
