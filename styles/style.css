@@ -28,6 +28,10 @@ a:hover {
   box-sizing: border-box;
 }
 
+.secondary-text-color {
+  color: var(--secondary-color);
+}
+
 /* Scrollbar */
 
 *,
