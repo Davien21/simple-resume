@@ -4,10 +4,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Chidebere | Home</title>
+        <title>Chidebere | About</title>
         <meta
           name="description"
-          content="A simple resume by Chidiebere Ekennia"
+          content="Hello, My name is Chidiebere Ekennia and I am a Software Developer. This is a simple portfolio website I made so you can learn more about me"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
