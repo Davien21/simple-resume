@@ -52,6 +52,7 @@ a:hover {
   background: var(--secondary-color);
 }
 
+
 aside,
 main,
 footer > :first-child,
@@ -95,7 +96,7 @@ aside li a,
 }
 
 aside li.active a,
-.side-nav li .active a {
+.side-nav li.active a {
   font-size: 32px;
   font-weight: 500;
 }
@@ -319,7 +320,7 @@ textarea.error {
   cursor: pointer;
   border-bottom: 1px solid #cbcbcb;
   margin-left: -25px;
-  margin-right: -28px;
+  margin-right: -25px;
 }
 
 .side-nav ul li a {
