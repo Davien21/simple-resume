@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Simple Resume</title>
+        <title>Chidebere | Home</title>
         <meta
           name="description"
           content="A simple resume by Chidiebere Ekennia"

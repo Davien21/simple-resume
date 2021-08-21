@@ -3,10 +3,19 @@ import Image from "next/image";
 import { experienceIcon } from "../images";
 import ExternalLink from "./../components/ExternalLink";
 import RightUpImage from "./../components/icons/rightUp";
+import Head from "next/head";
 
 function Experience() {
   return (
     <>
+      <Head>
+        <title>Chidebere | Experience</title>
+        <meta
+          name="description"
+          content="A simple resume by Chidiebere Ekennia"
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <section id="experience-intro">
         <div className="row align-items-center">
           <div className="col-auto">
@@ -108,9 +117,7 @@ function Experience() {
               <span className="col-auto pr-2 role">
                 Junior Fullstack developer,
               </span>
-              <span className="col-auto period">
-                June 2018 — June 2020
-              </span>
+              <span className="col-auto period">June 2018 — June 2020</span>
             </div>
           </header>
           <ul className="description">
