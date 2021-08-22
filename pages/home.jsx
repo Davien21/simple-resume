@@ -70,6 +70,15 @@ export default function Home() {
           <div className="tools mt-3 col-auto px-2">
             <div>GraphQL</div>
           </div>
+          <div className="tools mt-3 col-auto px-2">
+            <div>SQL</div>
+          </div>
+          <div className="tools mt-3 col-auto px-2">
+            <div>ChakraUI</div>
+          </div>
+          <div className="tools mt-3 col-auto px-2">
+            <div>Tailwind</div>
+          </div>
         </div>
       </section>
     </>
