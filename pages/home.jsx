@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
+import ExternalLink from "../components/ExternalLink";
+import RightUpImage from "../components/icons/rightUp";
 import { techStackIcon } from "../images";
 
 export default function Home() {
@@ -35,7 +37,13 @@ export default function Home() {
       </section>
       <section id="tech-stack">
         <header className="d-flex mb-3 align-items-center">
-          <Image alt="" src={techStackIcon} width={30} height={30} className="col-auto" />
+          <Image
+            alt=""
+            src={techStackIcon}
+            width={30}
+            height={30}
+            className="col-auto"
+          />
 
           <p className="title mb-0 col-auto">Tech Stack</p>
         </header>
@@ -80,6 +88,16 @@ export default function Home() {
             <div>Tailwind</div>
           </div>
         </div>
+      </section>
+      <section className="">
+        <ExternalLink
+          href="https://docs.google.com/document/d/1mOgn7CP1zsRRNLGc2eRUn_b_cvmVIi1FAbnlrVT9Pns/edit?usp=sharing"
+          className="article-title"
+        >
+          <span className="pr-3">Check out my project catalog:</span>
+
+          <RightUpImage />
+        </ExternalLink>
       </section>
     </>
   );
