@@ -56,7 +56,6 @@ a:hover {
   background: var(--secondary-color);
 }
 
-
 aside,
 main,
 footer > :first-child,
@@ -173,15 +172,15 @@ footer > :first-child .contact-btn > div {
 }
 
 .title {
-  font-size: 21px;
-  line-height: 25px;
-  font-weight: normal;
+  font-size: 21px !important;
+  line-height: 25px !important;
+  font-weight: normal !important;
 }
 
-div.name-div {
-  font-size: 32px;
-  line-height: 38px;
-  font-weight: 350;
+h1.name-div {
+  font-size: 32px !important;
+  line-height: 38px !important;
+  font-weight: 350 !important;
 }
 
 section#intro .role {
@@ -216,10 +215,15 @@ main {
 
 @media screen and (min-width: 992px) {
   main {
-    height: 462px;
+    height: 475px;
     overflow-y: auto;
   }
 }
+
+.contact-form-page {
+  /* margin-top: -1.5rem; */
+}
+
 /* Forms */
 
 .semi-bold {
@@ -246,6 +250,10 @@ textarea:focus {
 input.error,
 textarea.error {
   outline: 1px solid #d43742;
+}
+
+textarea {
+  /* height: 120px; */
 }
 
 .error-message {
@@ -429,4 +437,20 @@ ul.description {
   padding-left: 1rem;
 }
 
+section#tech-stack {
+  margin: 2rem 0rem;
+}
 
+
+section#tech-stack .stack {
+  padding: 0rem 0.5rem;
+}
+
+.stack .tools > div {
+  /* border: 2px dashed var(--primary-color); */
+  color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  /* width: 110px; */
+  text-align: center;
+  background-color: #edae0e4f;
+}

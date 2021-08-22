@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Image from "next/image";
+import { techStackIcon } from "../images";
 
 export default function Home() {
   return (
@@ -14,13 +16,13 @@ export default function Home() {
       <section id="intro">
         <header>
           <p className="m-0 title">Hi there 👋</p>
-          <div className="name-div mt-2">
+          <h1 className="name-div mt-2">
             <span className="">{"I'm "}</span>
             <b className="name">Chidiebere Ekennia</b>
-          </div>
+          </h1>
         </header>
         <div className="role">
-          <p className="m-0 title">A Software Developer from Imo, Nigeria.</p>
+          <h2 className="m-0 title">A Software Developer from Imo, Nigeria.</h2>
         </div>
         <div className="short-description">
           <p>
@@ -29,6 +31,45 @@ export default function Home() {
             listening to music or playing chess 😊.
           </p>
           <p>{"I'm "} currently open to new remote or contract roles.</p>
+        </div>
+      </section>
+      <section id="tech-stack">
+        <header className="d-flex mb-3 align-items-center">
+          <Image alt="" src={techStackIcon} width={30} height={30} className="col-auto" />
+
+          <p className="title mb-0 col-auto">Tech Stack</p>
+        </header>
+        <div className="stack row">
+          <div className="tools mt-3 col-auto px-2">
+            <div>HTML, CSS, Javascript</div>
+          </div>
+          <div className="tools mt-3 col-auto px-2">
+            <div>Reactjs</div>
+          </div>
+          <div className="tools mt-3 col-auto px-2">
+            <div>Nextjs</div>
+          </div>
+          <div className="tools mt-3 col-auto px-2">
+            <div>Nodejs</div>
+          </div>
+          <div className="tools mt-3 col-auto px-2">
+            <div>Expressjs</div>
+          </div>
+          <div className="tools mt-3 col-auto px-2">
+            <div>Bootstrap</div>
+          </div>
+          <div className="tools mt-3 col-auto px-2">
+            <div>Framer-motion</div>
+          </div>
+          <div className="tools mt-3 col-auto px-2">
+            <div>Redis</div>
+          </div>
+          <div className="tools mt-3 col-auto px-2">
+            <div>MongoDB</div>
+          </div>
+          <div className="tools mt-3 col-auto px-2">
+            <div>GraphQL</div>
+          </div>
         </div>
       </section>
     </>
