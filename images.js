@@ -7,6 +7,7 @@ import rightArrowIcon from "./public/imgs/svgs/right-chevron.svg";
 import menuIcon from "./public/imgs/svgs/menu.svg";
 import experienceIcon from "./public/imgs/svgs/experience.svg";
 import rightUpIcon from "./public/imgs/svgs/right-up.svg";
+import techStackIcon from "./public/imgs/svgs/tech-stack.svg";
 
 const hngLogo = "/imgs/hng.png";
 
@@ -21,4 +22,5 @@ module.exports = {
   menuIcon,
   experienceIcon,
   rightUpIcon,
+  techStackIcon
 };
