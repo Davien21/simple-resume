@@ -32,6 +32,11 @@ a:hover {
   color: var(--secondary-color);
 }
 
+.my-2rem {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 /* Scrollbar */
 
 *,
