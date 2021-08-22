@@ -21,13 +21,13 @@ function MyApp({ Component, pageProps, router }) {
         <Header />
         <div className="d-flex flex-wrap">
           <main className="col-lg-8">
-            <motion.div
+            <motion.section
               exit={fadeOut}
               initial={fadeOut}
               animate={routeChanging ? fadeOut : fadeIn}
             >
               <Component {...pageProps} key={router.route} />
-            </motion.div>
+            </motion.section>
           </main>
           <Aside className="col-lg-4 d-none d-lg-block" />
         </div>
