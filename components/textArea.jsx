@@ -6,10 +6,13 @@ const TextArea = ({ name, label, error, ...rest }) => {
 
   return (
     <div className="form-group mt-2">
+      <label className="" htmlFor={name}>
+        {label}
+      </label>
       <textarea
         {...rest}
         name={name}
-        placeholder={label}
+        // placeholder={label}
         id={name}
         rows="2"
         className={textAreaClassName}

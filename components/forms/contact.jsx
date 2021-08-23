@@ -31,7 +31,7 @@ class ContactForm extends Form {
   render() {
     return (
       <div>
-        <p className="title mb-4 semi-bold">GET IN TOUCH</p>
+        <p className="title mb-4 semi-bold">Get in touch</p>
         <form
           onSubmit={this.handleSubmit}
           action={this.state.errors.length ?? "https://formspree.io/f/mayalpoq"}
