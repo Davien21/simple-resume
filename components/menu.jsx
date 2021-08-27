@@ -1,4 +1,6 @@
 import React from "react";
+import ExternalLink from "./ExternalLink";
+import RightUpImage from "./icons/rightUp";
 import NavLink from "./navLink";
 
 function Menu(props) {
@@ -12,6 +14,17 @@ function Menu(props) {
         <NavLink href="/experience">Experience</NavLink>
 
         <NavLink href="/contact">Contact</NavLink>
+
+        <li>
+          <ExternalLink
+            href="https://drive.google.com/file/d/1-g6bcAII6pdlIGoAk5-v2y4DPxh2p3Y6/view?usp=sharing"
+            className="article-title"
+          >
+            <span className="pr-3">Resume</span>
+
+            <RightUpImage />
+          </ExternalLink>
+        </li>
       </ul>
     </nav>
   );
