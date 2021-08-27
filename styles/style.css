@@ -11,7 +11,7 @@ body {
   font-family: "Space Grotesk", -apple-system, BlinkMacSystemFont, Segoe UI,
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
-  background-color: #fbfaf2;
+  background-color: #fefc62;
 }
 
 a {
@@ -445,7 +445,6 @@ ul.description {
 section#tech-stack {
   margin: 2rem 0rem;
 }
-
 
 section#tech-stack .stack {
   padding: 0rem 0.5rem;
