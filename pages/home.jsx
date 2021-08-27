@@ -55,6 +55,12 @@ export default function Home() {
             <div>Reactjs</div>
           </div>
           <div className="tools mt-3 col-auto px-2">
+            <div>Redux</div>
+          </div>
+          <div className="tools mt-3 col-auto px-2">
+            <div>Socket.io</div>
+          </div>
+          <div className="tools mt-3 col-auto px-2">
             <div>Nextjs</div>
           </div>
           <div className="tools mt-3 col-auto px-2">
