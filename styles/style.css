@@ -483,7 +483,7 @@ section#tech-stack .stack {
   width: 310px;
   height: 300px;
   border-radius: 50%;
-  background: var(--secondary-color);
+  background: #FFC83D;
   z-index: 0;
 }
 

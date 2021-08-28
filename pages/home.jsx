@@ -27,7 +27,7 @@ export default function Home() {
           <h2 className="m-0 title">A Software Developer from Imo, Nigeria.</h2>
         </div>
         <div className="profile-image position-relative text-cente">
-          <img alt="" width={2592} height={1728} src={chidi} />
+          <img loading="eager" alt="" width={2592} height={1728} src={chidi} />
         </div>
         <div className="short-description">
           <p>
