@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import ExternalLink from "../components/ExternalLink";
 import RightUpImage from "../components/icons/rightUp";
-import { techStackIcon } from "../images";
+import { techStackIcon, chidi } from "../images";
 
 export default function Home() {
   return (
@@ -25,6 +25,9 @@ export default function Home() {
         </header>
         <div className="role">
           <h2 className="m-0 title">A Software Developer from Imo, Nigeria.</h2>
+        </div>
+        <div className="profile-image position-relative text-cente">
+          <img alt="" width={2592} height={1728} src={chidi} />
         </div>
         <div className="short-description">
           <p>
