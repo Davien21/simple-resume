@@ -13,7 +13,7 @@ const slideIn = {
 };
 
 const slideOut = {
-  left: "-140%",
+  left: "-100%",
   transition: { duration: 0.5 },
 };
 
