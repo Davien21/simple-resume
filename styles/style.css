@@ -470,8 +470,8 @@ section#tech-stack .stack {
 .profile-image img {
   position: relative;
   z-index: 1;
-  width: 310px;
-  height: 310px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   object-fit: cover;
   border: 8px solid #fff !important;
@@ -482,9 +482,34 @@ section#tech-stack .stack {
   position: absolute;
   top: 5px;
   left: 5px;
-  width: 310px;
-  height: 300px;
+  width: 220px;
+  height: 210px;
   border-radius: 50%;
   background: #ffc83d;
   z-index: 0;
+}
+
+@media screen and (min-width: 300px) {
+  .profile-image img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .profile-image::before {
+    width: 250px;
+    height: 240px;
+  }
+}
+
+
+@media screen and (min-width: 364px) {
+  .profile-image img {
+    width: 310px;
+    height: 310px;
+  }
+
+  .profile-image::before {
+    width: 310px;
+    height: 300px;
+  }
 }
