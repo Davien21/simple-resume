@@ -26,15 +26,17 @@ export default function Home() {
         <div className="role">
           <h2 className="m-0 title">A Software Developer from Imo, Nigeria.</h2>
         </div>
-        <div className="profile-image position-relative text-cente">
-          <img loading="eager" alt="" width={2592} height={1728} src={chidi} />
+        <div className="profile-image position-relative">
+          <Image loading="eager" alt="" width={864} height={576} src={chidi} />
         </div>
         <div className="short-description">
-          <p>
-            I love to build beautiful and highly performant applications /
-            interfaces using whatever tools are needed. In my free time, I love
-            listening to music or playing chess 😊.
-          </p>
+          <div className="mb-2">
+            I love to build beautiful and highly performant
+            <span className="semi-bold"> applications</span> and{" "}
+            <span className="semi-bold">interfaces </span>
+            using whatever tools are needed. In my free time, I love listening
+            to music or playing chess 😊.
+          </div>
           <p>{"I'm "} currently open to new remote or contract roles.</p>
         </div>
       </section>

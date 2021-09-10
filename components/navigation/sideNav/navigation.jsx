@@ -6,6 +6,7 @@ import TwitterImage from "./../../icons/twitter";
 import GithubImage from "./../../icons/github";
 import LinkedinImage from "./../../icons/linkedin";
 import Link from "next/link";
+import { useRef } from "react";
 
 const slideIn = {
   left: "0",
@@ -13,19 +14,31 @@ const slideIn = {
 };
 
 const slideOut = {
-  left: "-100%",
+  left: "-300px",
   transition: { duration: 0.5 },
 };
 
+const handleAnimationStart = (ref, isOpen) => {
+  if (isOpen) ref.current.style.display = "block";
+};
+
+const handleAnimationEnd = (ref, isOpen) => {
+  if (!isOpen) ref.current.style.display = "none";
+};
+
 function SideBar({ isOpen, onCloseSideBar }) {
+  const sidebarRef = useRef();
   return (
     <motion.div
       initial={slideOut}
       animate={isOpen ? slideIn : slideOut}
       className="side-nav"
+      ref={sidebarRef}
+      onAnimationComplete={() => handleAnimationEnd(sidebarRef, isOpen)}
+      onAnimationStart={() => handleAnimationStart(sidebarRef, isOpen)}
     >
       <div className=" d-flex my-2">
-        <Link href="/" >
+        <Link href="/">
           <span className="logo">Chidiebere</span>
         </Link>
         <CloseButton toggle={onCloseSideBar} />

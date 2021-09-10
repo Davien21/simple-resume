@@ -13,7 +13,7 @@ body {
   font-family: "Space Grotesk", -apple-system, BlinkMacSystemFont, Segoe UI,
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
-  background-color: var(--background)
+  background-color: var(--background);
 }
 
 a {
@@ -463,6 +463,8 @@ section#tech-stack .stack {
 
 .profile-image {
   margin-bottom: 2rem;
+  position: relative;
+  margin-left: -10px;
 }
 
 .profile-image img {
@@ -472,10 +474,10 @@ section#tech-stack .stack {
   height: 310px;
   border-radius: 50%;
   object-fit: cover;
-  border: 8px solid #fff;
+  border: 8px solid #fff !important;
 }
 
-.profile-image::after {
+.profile-image::before {
   content: "";
   position: absolute;
   top: 5px;
@@ -483,18 +485,6 @@ section#tech-stack .stack {
   width: 310px;
   height: 300px;
   border-radius: 50%;
-  background: #FFC83D;
+  background: #ffc83d;
   z-index: 0;
 }
-
-/* .profile-image::before {
-  content: "";
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  width: 310px;
-  height: 300px;
-  border-radius: 50%;
-  background: var(--butter-color);
-  z-index: 0;
-} */
