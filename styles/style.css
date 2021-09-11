@@ -501,7 +501,6 @@ section#tech-stack .stack {
   }
 }
 
-
 @media screen and (min-width: 364px) {
   .profile-image img {
     width: 310px;
@@ -511,5 +510,15 @@ section#tech-stack .stack {
   .profile-image::before {
     width: 310px;
     height: 300px;
+  }
+}
+
+#work-timeline {
+  margin-bottom: -2rem;
+}
+
+@media screen and (min-width: 576px) {
+  #work-timeline {
+    margin-bottom: -3rem;
   }
 }
