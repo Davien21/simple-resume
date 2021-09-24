@@ -25,6 +25,17 @@ function Menu(props) {
             <RightUpImage />
           </ExternalLink>
         </li>
+
+        <li>
+          <ExternalLink
+            href="https://docs.google.com/document/d/1mOgn7CP1zsRRNLGc2eRUn_b_cvmVIi1FAbnlrVT9Pns/edit?usp=sharing"
+            className="article-title"
+          >
+            <span className="pr-3">Project Catalog</span>
+
+            <RightUpImage />
+          </ExternalLink>
+        </li>
       </ul>
     </nav>
   );
