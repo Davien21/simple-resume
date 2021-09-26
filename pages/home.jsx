@@ -13,6 +13,7 @@ export default function Home() {
           name="description"
           content="Hello, My name is Chidiebere Ekennia and I am a Software Developer. This is a simple portfolio website I made so you can learn more about me"
         />
+        <meta name="keywords" content="Chidiebere Ekennia, Chidiebere, Chidi, Ekennia"></meta>
         <link rel="icon" href="/software-2.png" />
       </Head>
       <section id="intro">
