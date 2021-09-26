@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { softwareIcon } from "images";
+import { softwareIcon } from "../images";
 import Image from "next/image";
 import Head from "next/head";
 import SegmentedControl from "../components/segmentedControl";
