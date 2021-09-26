@@ -4,7 +4,7 @@ import Header from "../components/header";
 import Aside from "../components/aside";
 import Footer from "../components/footer";
 import { motion, AnimatePresence } from "framer-motion";
-import useRouteChangeHandler from "hooks/useRouteChangeHandler";
+import useRouteChangeHandler from "../hooks/useRouteChangeHandler";
 
 const fadeIn = {
   opacity: 1,
