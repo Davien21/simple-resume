@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { softwareIcon } from "images";
+import { softwareIcon } from "../images";
 import Image from "next/image";
 import Head from "next/head";
 import SegmentedControl from "../components/segmentedControl";
@@ -17,7 +17,10 @@ function WorkPage() {
           name="description"
           content="Hello, My name is Chidiebere Ekennia and I am a Software Developer. Here are some software projects I have worked."
         />
-        <meta name="keywords" content="Chidiebere Ekennia, Chidiebere, Chidi, Ekennia"></meta>
+        <meta
+          name="keywords"
+          content="Chidiebere Ekennia, Chidiebere, Chidi, Ekennia"
+        ></meta>
         <link rel="icon" href="/software-2.png" />
       </Head>
       <section id="experience-intro">
