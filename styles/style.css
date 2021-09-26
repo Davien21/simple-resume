@@ -311,6 +311,7 @@ textarea {
 
 .side-nav {
   height: 100vh;
+  overflow: hidden auto;
   width: 300px;
   background-color: #fbfaf2;
   position: fixed;
@@ -409,9 +410,6 @@ textarea {
   position: relative;
   top: -6px;
   margin-bottom: 0.5rem;
-}
-
-.timeline-item header > .meta-info {
 }
 
 .timeline-item .article-title {

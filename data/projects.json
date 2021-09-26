@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Mojay Global Holding Limited",
+    "url": "https://mojay.com",
+    "type": "live"
+  },
+  {
+    "name": "Press Play",
+    "url": "https://press-play.test.herokuapp.com",
+    "type": "pet"
+  }
+]

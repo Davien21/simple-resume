@@ -11,11 +11,11 @@ function ContactPage(props) {
           name="description"
           content="Hello, My name is Chidiebere Ekennia and I am a Software Developer. This is a simple portfolio website I made so you can learn more about me"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/software-2.png" />
       </Head>
-      <div>
+      <section className="contact-form-page">
         <ContactForm />
-      </div>
+      </section>
     </>
   );
 }

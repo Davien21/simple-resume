@@ -5,6 +5,7 @@ import logos from "./public/imgs/svgs/logos.svg";
 import rightArrowIcon from "./public/imgs/svgs/right-chevron.svg";
 import menuIcon from "./public/imgs/svgs/menu.svg";
 import experienceIcon from "./public/imgs/svgs/experience.svg";
+import softwareIcon from "./public/imgs/svgs/software-2.svg";
 import rightUpIcon from "./public/imgs/svgs/right-up.svg";
 import techStackIcon from "./public/imgs/svgs/tech-stack.svg";
 
@@ -19,6 +20,7 @@ module.exports = {
   rightArrowIcon,
   menuIcon,
   experienceIcon,
+  softwareIcon,
   rightUpIcon,
   techStackIcon,
 };
