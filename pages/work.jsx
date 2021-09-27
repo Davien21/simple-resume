@@ -6,7 +6,7 @@ import SegmentedControl from "../components/segmentedControl";
 import WorkProjects from "../components/workProjects";
 
 function WorkPage() {
-  const [projectTypes] = useState(["All", "Live", "Pet", "Food", "Die"]);
+  const [projectTypes] = useState(["All", "Live", "Pet"]);
   const [activeControl, setActiveControl] = useState(projectTypes[0]);
 
   return (

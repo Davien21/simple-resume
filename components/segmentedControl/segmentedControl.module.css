@@ -1,31 +1,34 @@
 .container {
-  background-color: #fbfaf2;
+  background-color: #fbf2da;
   color: #000;
-  display: flex;
-  border: 3px solid #000;
+  display: inline-flex;
+  /* border: 3px solid #000; */
   border-radius: 1rem;
   padding: 0.5rem 0rem;
   position: relative;
 }
 
-@media screen and (min-width: 576px) {
+/* @media screen and (min-width: 360px) {
   .container {
     display: inline-flex;
   }
-}
+} */
 
 .slider {
   /* padding: 0.5rem 0.5rem; */
   background-color: #edae0e !important;
   content: "";
   position: absolute;
-  top: 4.79%;
+  top: 8.79%;
   /* bottom: 1%; */
   /* left: 1px; */
   border-radius: 0.8rem;
   /* display: none; */
-  height: 90%;
+  height: 80%;
   max-width: 100%;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.06);
+  /* transform: translateX(5px 2px); */
 }
 
 .container li {
