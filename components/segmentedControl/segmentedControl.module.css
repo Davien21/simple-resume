@@ -2,13 +2,13 @@
   background-color: #fbf2da;
   color: #000;
   display: inline-flex;
-  /* justify-content: space-between; */
+  justify-content: space-around;
   /* border: 3px solid #000; */
   border-radius: 1rem;
   padding: 0.75rem 0rem;
   position: relative;
-  /* width: 100%; */
-  /* max-width: 300px; */
+  width: 100%;
+  max-width: 500px;
 }
 
 .slider-container {
@@ -47,7 +47,7 @@
   cursor: pointer;
   flex-basis: 1;
   /* height: 40px; */
-  min-width: 100px;
+  /* min-width: 100px; */
 }
 
 .container li:not(.active):hover {
@@ -66,7 +66,7 @@
 
 @media screen and (min-width: 576px) {
   .container {
-    display: inline-flex !important;
+    /* display: inline-flex !important; */
   }
   .container li {
   }

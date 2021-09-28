@@ -31,7 +31,7 @@ function WorkPage() {
           <div className="col-auto px-0">
             <p className="title m-0 semi-bold">Projects</p>
           </div>
-          <div className="col-12 col-lg-auto my-2 ml-auto">
+          <div className="col-12 col-md-12 col-lg-6 my-2 ml-auto">
             <SegmentedControl
               active={activeControl}
               controls={projectTypes}
