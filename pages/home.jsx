@@ -61,6 +61,15 @@ export default function Home() {
             <div>Reactjs</div>
           </div>
           <div className="tools mt-3 col-auto px-2">
+            <div>Solidity</div>
+          </div>
+          <div className="tools mt-3 col-auto px-2">
+            <div>Etherjs</div>
+          </div>
+          <div className="tools mt-3 col-auto px-2">
+            <div>Web3</div>
+          </div>
+          <div className="tools mt-3 col-auto px-2">
             <div>Redux</div>
           </div>
           <div className="tools mt-3 col-auto px-2">
