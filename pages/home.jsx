@@ -70,6 +70,9 @@ export default function Home() {
             <div>Web3</div>
           </div>
           <div className="tools mt-3 col-auto px-2">
+            <div>React Native</div>
+          </div>
+          <div className="tools mt-3 col-auto px-2">
             <div>Redux</div>
           </div>
           <div className="tools mt-3 col-auto px-2">
