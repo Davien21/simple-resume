@@ -25,7 +25,7 @@ export default function Home() {
           </h1>
         </header>
         <div className="role">
-          <h2 className="m-0 title">A Software Developer from Imo, Nigeria.</h2>
+          <h2 className="m-0 title">A Software and Web3 Developer based in Enugu, Nigeria.</h2>
         </div>
         <div className="profile-image position-relative">
           <Image loading="eager" alt="" width={864} height={576} src={chidi} />

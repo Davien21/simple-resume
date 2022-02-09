@@ -28,6 +28,43 @@ function Experience() {
         </div>
       </section>
       <section id="work-timeline" className="mt-4 px-2">
+      <article className="timeline-item">
+          <header>
+            <ExternalLink href="https://www.buildspace.africa/" className="article-title">
+              <span className="">Buildspace Africa,</span>
+              <span className="pl-2 pr-3 location">Nigeria</span>
+              <RightUpImage />
+            </ExternalLink>
+            <div className="meta-info row mt-1">
+              <span className="col-auto pr-2 role">Co-Founder,</span>
+              <span className="col-auto period">January 2022 — Present</span>
+            </div>
+          </header>
+          <ul className="description">
+            <li>
+              Actively building a Web3 Community in Africa with the Buildspace Team.
+            </li>
+          </ul>
+        </article>
+      <article className="timeline-item">
+          <header>
+            <ExternalLink href="https://www.blockchainhubafrica.com" className="article-title">
+              <span className="">Blockchain Hub Africa,</span>
+              <span className="pl-2 pr-3 location">Nigeria</span>
+              <RightUpImage />
+            </ExternalLink>
+            <div className="meta-info row mt-1">
+              <span className="col-auto pr-2 role">Assistant C.T.O,</span>
+              <span className="col-auto period">July 2021 — Present</span>
+            </div>
+          </header>
+          <ul className="description">
+            <li>
+              Building Web3 Solutions and startups in Africa.
+            </li>
+            <li>Supervising core development and processes across all applications</li>
+          </ul>
+        </article>
         <article className="timeline-item">
           <header>
             <ExternalLink href="https://mojay.com" className="article-title">
@@ -37,7 +74,7 @@ function Experience() {
             </ExternalLink>
             <div className="meta-info row mt-1">
               <span className="col-auto pr-2 role">Software developer,</span>
-              <span className="col-auto period">May 2021 — Present</span>
+              <span className="col-auto period">May 2021 — November 2021</span>
             </div>
           </header>
           <ul className="description">
@@ -61,7 +98,7 @@ function Experience() {
             </ExternalLink>
             <div className="meta-info row mt-1">
               <span className="col-auto pr-2 role">Software developer,</span>
-              <span className="col-auto period">March 2021 — Present</span>
+              <span className="col-auto period">March 2021 — November 2021</span>
             </div>
           </header>
           <ul className="description">
