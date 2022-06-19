@@ -81,12 +81,12 @@ export default function Home() {
             <div>Nextjs</div>
           </div>
           <div className="tools mt-3 col-auto px-2">
-            <div className="tools mt-3 col-auto px-2">
-              <div>Nodejs</div>
-            </div>
-            <div className="tools mt-3 col-auto px-2">
-              <div>Angular</div>
-            </div>
+            <div>Nodejs</div>
+          </div>
+          <div className="tools mt-3 col-auto px-2">
+            <div>Angular</div>
+          </div>
+          <div className="tools mt-3 col-auto px-2">
             <div>React Native</div>
           </div>
           <div className="tools mt-3 col-auto px-2">
