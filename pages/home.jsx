@@ -13,7 +13,10 @@ export default function Home() {
           name="description"
           content="Hello, My name is Chidiebere Ekennia and I am a Software Developer. This is a simple portfolio website I made so you can learn more about me"
         />
-        <meta name="keywords" content="Chidiebere Ekennia, Chidiebere, Chidi, Ekennia"></meta>
+        <meta
+          name="keywords"
+          content="Chidiebere Ekennia, Chidiebere, Chidi, Ekennia"
+        ></meta>
         <link rel="icon" href="/software-2.png" />
       </Head>
       <section id="intro">
@@ -25,7 +28,9 @@ export default function Home() {
           </h1>
         </header>
         <div className="role">
-          <h2 className="m-0 title">A Software Developer with over 4 years of working experience.</h2>
+          <h2 className="m-0 title">
+            A Software Developer with over 4 years of working experience.
+          </h2>
         </div>
         <div className="profile-image position-relative">
           <Image loading="eager" alt="" width={864} height={576} src={chidi} />
@@ -38,7 +43,10 @@ export default function Home() {
             using whatever tools are needed. In my free time, I love listening
             to music or playing chess 😊.
           </div>
-          <p>{"I'm "} currently open to new remote roles, especially in the blockchain space.</p>
+          <p>
+            {"I'm "} currently open to new remote roles, especially in the
+            blockchain space.
+          </p>
         </div>
       </section>
       <section id="tech-stack">
@@ -73,19 +81,22 @@ export default function Home() {
             <div>Nextjs</div>
           </div>
           <div className="tools mt-3 col-auto px-2">
+            <div className="tools mt-3 col-auto px-2">
+              <div>Nodejs</div>
+            </div>
+            <div className="tools mt-3 col-auto px-2">
+              <div>Angular</div>
+            </div>
             <div>React Native</div>
           </div>
           <div className="tools mt-3 col-auto px-2">
             <div>Redux</div>
           </div>
           <div className="tools mt-3 col-auto px-2">
-            <div>Nodejs</div>
+            <div>Expressjs</div>
           </div>
           <div className="tools mt-3 col-auto px-2">
             <div>Socket.io</div>
-          </div>
-          <div className="tools mt-3 col-auto px-2">
-            <div>Expressjs</div>
           </div>
           <div className="tools mt-3 col-auto px-2">
             <div>Bootstrap</div>
