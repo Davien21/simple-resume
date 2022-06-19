@@ -36,7 +36,7 @@ function Experience() {
               <RightUpImage />
             </ExternalLink>
             <div className="meta-info row mt-1">
-              <span className="col-auto pr-2 role">Co-Founder,</span>
+              <span className="col-auto pr-2 role">Volunteer,</span>
               <span className="col-auto period">January 2022 — Present</span>
             </div>
           </header>

@@ -25,7 +25,7 @@ export default function Home() {
           </h1>
         </header>
         <div className="role">
-          <h2 className="m-0 title">A Software and Web3 Developer based in Enugu, Nigeria.</h2>
+          <h2 className="m-0 title">A Software Developer with over 4 years of working experience.</h2>
         </div>
         <div className="profile-image position-relative">
           <Image loading="eager" alt="" width={864} height={576} src={chidi} />
@@ -38,7 +38,7 @@ export default function Home() {
             using whatever tools are needed. In my free time, I love listening
             to music or playing chess 😊.
           </div>
-          <p>{"I'm "} currently open to new remote or contract roles.</p>
+          <p>{"I'm "} currently open to new remote roles, especially in the blockchain space.</p>
         </div>
       </section>
       <section id="tech-stack">
@@ -55,7 +55,7 @@ export default function Home() {
         </header>
         <div className="stack row">
           <div className="tools mt-3 col-auto px-2">
-            <div>HTML, CSS, Javascript</div>
+            <div>Typescript</div>
           </div>
           <div className="tools mt-3 col-auto px-2">
             <div>Reactjs</div>
@@ -70,19 +70,19 @@ export default function Home() {
             <div>Web3</div>
           </div>
           <div className="tools mt-3 col-auto px-2">
+            <div>Nextjs</div>
+          </div>
+          <div className="tools mt-3 col-auto px-2">
             <div>React Native</div>
           </div>
           <div className="tools mt-3 col-auto px-2">
             <div>Redux</div>
           </div>
           <div className="tools mt-3 col-auto px-2">
-            <div>Socket.io</div>
-          </div>
-          <div className="tools mt-3 col-auto px-2">
-            <div>Nextjs</div>
-          </div>
-          <div className="tools mt-3 col-auto px-2">
             <div>Nodejs</div>
+          </div>
+          <div className="tools mt-3 col-auto px-2">
+            <div>Socket.io</div>
           </div>
           <div className="tools mt-3 col-auto px-2">
             <div>Expressjs</div>
