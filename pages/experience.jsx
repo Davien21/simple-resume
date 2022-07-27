@@ -14,7 +14,10 @@ function Experience() {
           name="description"
           content="Hello, My name is Chidiebere Ekennia and I am a Software Developer. This is a simple portfolio website I made so you can learn more about me"
         />
-        <meta name="keywords" content="Chidiebere Ekennia, Chidiebere, Chidi, Ekennia"></meta>
+        <meta
+          name="keywords"
+          content="Chidiebere Ekennia, Chidiebere, Chidi, Ekennia"
+        ></meta>
         <link rel="icon" href="/software-2.png" />
       </Head>
       <section id="experience-intro">
@@ -28,9 +31,34 @@ function Experience() {
         </div>
       </section>
       <section id="work-timeline" className="mt-4 px-2">
-      <article className="timeline-item">
+        <article className="timeline-item">
           <header>
-            <ExternalLink href="https://www.buildspace.africa/" className="article-title">
+            <ExternalLink
+              href="https://www.vertofx.com/"
+              className="article-title"
+            >
+              <span className="">Verto Fx,</span>
+              <span className="pl-2 pr-3 location">United Kingdom</span>
+              <RightUpImage />
+            </ExternalLink>
+            <div className="meta-info row mt-1">
+              <span className="col-auto pr-2 role">
+                Fullstack Web Developer,
+              </span>
+              <span className="col-auto period">May 2022 — Present</span>
+            </div>
+          </header>
+          <ul className="description">
+            <li>Supervising development on the website.</li>
+            <li>Building features and improving platform performance.</li>
+          </ul>
+        </article>
+        <article className="timeline-item">
+          <header>
+            <ExternalLink
+              href="https://www.buildspace.africa/"
+              className="article-title"
+            >
               <span className="">Buildspace Africa,</span>
               <span className="pl-2 pr-3 location">Nigeria</span>
               <RightUpImage />
@@ -42,13 +70,17 @@ function Experience() {
           </header>
           <ul className="description">
             <li>
-              Actively building a Web3 Community in Africa with the Buildspace Team.
+              Actively building a Web3 Community in Africa with the Buildspace
+              Team.
             </li>
           </ul>
         </article>
-      <article className="timeline-item">
+        <article className="timeline-item">
           <header>
-            <ExternalLink href="https://www.blockchainhubafrica.com" className="article-title">
+            <ExternalLink
+              href="https://www.blockchainhubafrica.com"
+              className="article-title"
+            >
               <span className="">Blockchain Hub Africa,</span>
               <span className="pl-2 pr-3 location">Nigeria</span>
               <RightUpImage />
@@ -59,10 +91,10 @@ function Experience() {
             </div>
           </header>
           <ul className="description">
+            <li>Building Web3 Solutions and startups in Africa.</li>
             <li>
-              Building Web3 Solutions and startups in Africa.
+              Supervising core development and processes across all applications
             </li>
-            <li>Supervising core development and processes across all applications</li>
           </ul>
         </article>
         <article className="timeline-item">
@@ -98,7 +130,9 @@ function Experience() {
             </ExternalLink>
             <div className="meta-info row mt-1">
               <span className="col-auto pr-2 role">Software developer,</span>
-              <span className="col-auto period">March 2021 — November 2021</span>
+              <span className="col-auto period">
+                July 2020 — November 2021
+              </span>
             </div>
           </header>
           <ul className="description">
