@@ -4,6 +4,7 @@ import { experienceIcon } from "../images";
 import ExternalLink from "./../components/ExternalLink";
 import RightUpImage from "./../components/icons/rightUp";
 import Head from "next/head";
+import ScrollIndicator from "../components/scrollIndicator";
 
 function Experience() {
   return (
@@ -30,41 +31,7 @@ function Experience() {
           </div>
         </div>
       </section>
-      <div className="hero__scroll p-4">
-          <p className="mr-2">Scroll down</p>
-          <div className="c-infinite">
-            <span className="c-link">
-              <span className="c-link__inner">
-                <span>
-                  <svg
-                    width="20"
-                    height="21"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M10.833 13.977l4.47-4.47 1.179 1.178L10 17.167l-6.482-6.482 1.179-1.178 4.47 4.47V3.833h1.666v10.144z"
-                      fill="#777"
-                    ></path>
-                  </svg>
-                </span>
-                <span className="c-link__animated">
-                  <svg
-                    width="20"
-                    height="21"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M10.833 13.977l4.47-4.47 1.179 1.178L10 17.167l-6.482-6.482 1.179-1.178 4.47 4.47V3.833h1.666v10.144z"
-                      fill="#777"
-                    ></path>
-                  </svg>
-                </span>
-              </span>
-            </span>
-          </div>
-        </div>
+      <ScrollIndicator />
       <section id="work-timeline" className="mt-4 px-2">
         <article className="timeline-item">
           <header>
@@ -165,9 +132,7 @@ function Experience() {
             </ExternalLink>
             <div className="meta-info row mt-1">
               <span className="col-auto pr-2 role">Software developer,</span>
-              <span className="col-auto period">
-                July 2020 — November 2021
-              </span>
+              <span className="col-auto period">July 2020 — November 2021</span>
             </div>
           </header>
           <ul className="description">

@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import ExternalLink from "../components/ExternalLink";
 import RightUpImage from "../components/icons/rightUp";
+import ScrollIndicator from "../components/scrollIndicator";
 import { techStackIcon, chidi } from "../images";
 
 export default function Home() {
@@ -35,41 +36,7 @@ export default function Home() {
         <div className="profile-image position-relative">
           <Image loading="eager" alt="" width={864} height={576} src={chidi} />
         </div>
-        <div className="hero__scroll p-4">
-          <p className="mr-2">Scroll down</p>
-          <div className="c-infinite">
-            <span className="c-link">
-              <span className="c-link__inner">
-                <span>
-                  <svg
-                    width="20"
-                    height="21"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M10.833 13.977l4.47-4.47 1.179 1.178L10 17.167l-6.482-6.482 1.179-1.178 4.47 4.47V3.833h1.666v10.144z"
-                      fill="#777"
-                    ></path>
-                  </svg>
-                </span>
-                <span className="c-link__animated">
-                  <svg
-                    width="20"
-                    height="21"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M10.833 13.977l4.47-4.47 1.179 1.178L10 17.167l-6.482-6.482 1.179-1.178 4.47 4.47V3.833h1.666v10.144z"
-                      fill="#777"
-                    ></path>
-                  </svg>
-                </span>
-              </span>
-            </span>
-          </div>
-        </div>
+        <ScrollIndicator />
       </section>
       <section>
         <div className="short-description">
