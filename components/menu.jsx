@@ -17,7 +17,7 @@ function Menu(props) {
 
         <li>
           <ExternalLink
-            href="https://drive.google.com/file/d/1S0myL39LNDFXdpuZQLh1GNNeBN4hx3hK/view?usp=sharing"
+            href="https://drive.google.com/file/d/1RZI9Pdod_t01-ZMIbNjr9Qjn7qUVqiM1/view?usp=sharing"
             className="article-title"
           >
             <span className="pr-3">Resume</span>
