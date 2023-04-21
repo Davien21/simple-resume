@@ -30,7 +30,7 @@ export default function Home() {
         </header>
         <div className="role">
           <h2 className="m-0 title">
-            A Software Developer with over 4 years of working experience.
+            A Software Developer with over 5 years of working experience.
           </h2>
         </div>
         <div className="profile-image position-relative">
