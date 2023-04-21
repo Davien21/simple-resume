@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ScrollIndicator() {
   return (
-    <div className="hero__scroll p-4">
+    <div className="hero__scroll p-4 d-none d-lg-flex">
       <p className="mr-2">Scroll down</p>
       <div className="c-infinite">
         <span className="c-link">
