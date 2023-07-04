@@ -34,7 +34,7 @@ export default function Home() {
           </h2>
         </div>
         <div className="profile-image position-relative">
-          <Image loading="eager" alt="" width={864} height={576} src={chidi} />
+          <Image loading="eager" alt="Profile Picture" width={864} height={576} src={chidi} />
         </div>
         <ScrollIndicator />
       </section>
