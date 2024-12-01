@@ -6,6 +6,7 @@ import ScrollIndicator from "../components/scrollIndicator";
 import { techStackIcon, chidi } from "../images";
 
 export default function Home() {
+  const years = new Date().getFullYear() - 2018;
   return (
     <>
       <Head>
@@ -30,7 +31,7 @@ export default function Home() {
         </header>
         <div className="role">
           <h2 className="m-0 title">
-            A Software Developer with over 5 years of working experience.
+            A Software Developer with over {years} years of working experience.
           </h2>
         </div>
         <div className="profile-image position-relative">
